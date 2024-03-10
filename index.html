@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Centered Buttons</title>
+<style>
+    body {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: #f0f0f0;
+        background-image: url(./7546893.jpg);
+        backdrop-filter: blur(2px);
+        background-size:auto;
+    }
+
+    .container {
+        text-align: center;
+    }
+
+    .btn-container {
+        margin-bottom: 20px;
+    }
+
+    .btn-container .btn{
+        color: black;
+    }
+
+    .btn {
+        padding: 10px 20px;
+        font-size: 80px;
+        background-image: linear-gradient(to top, #00c6fb 0%, #005bea 100%);
+        color: white;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+        margin-bottom: 100px;
+        width: 20rem;
+        margin-left: 50%;
+    }
+
+    .btn:hover {
+        background-color: #45a049;
+    }
+
+    .btn a{
+        text-decoration: none;
+        color: black;
+    }
+
+    .p1{
+        margin-left: 28%;
+        margin-top: 60%;
+        /* margin-bottom: 30%; */
+        width: 800px;
+        font-size: 4rem;
+        font-weight: bold;
+    }
+    .back-button {
+  position: fixed;
+  top: 30px;
+  left: 50px;
+  padding: 10px; 
+  border: none;
+  cursor: pointer;
+  box-shadow: 3px 4px 0px 0px #e184f3;
+background:linear-gradient(to bottom, #c123de 5%, #a20dbd 100%);
+background-color:#c123de;
+border-radius:5px;
+border:1px solid #a511c0;
+  font-size:17px;
+font-weight:bold;
+padding:12px 44px;
+text-decoration:none;
+text-shadow:0px 1px 0px #9b14b3;
+}
+
+.back-button a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 1rem;
+  padding: 0 2px;
+}
+
+.back-button:hover{
+  background:linear-gradient(to bottom, #a20dbd 5%, #c123de 100%);
+background-color:#a20dbd;
+}
+  
+.next-button {
+  position: fixed;
+  top: 30px;
+  right: 50px;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 3px 4px 0px 0px #54a3f7;
+background:linear-gradient(to bottom, #007dc1 5%, #0061a7 100%);
+background-color:#007dc1;
+border-radius:5px;
+border:1px solid #124d77;
+display:inline-block;
+cursor:pointer;
+color:#ffffff;
+font-family:Arial;
+font-size:17px;
+font-weight:bold;
+padding:12px 44px;
+text-decoration:none;
+text-shadow:0px 1px 0px #154682;
+}
+
+.next-button a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.next-button:hover{
+  background:linear-gradient(to bottom, #0061a7 5%, #007dc1 100%);
+background-color:#0061a7;
+}
+</style>
+</head>
+<body>
+
+<button class="back-button"><a href="/homepage/index.html">Back</a></button>
+
+<div class="container">
+    <p class="p1">Choose your Language!</p>
+    <div class="btn-container">
+        <button class="btn btn-1"><a href="/english-dashboard/dashboard.html">English</a></button>
+    </div>
+    <div class="btn-container">
+        <button class="btn btn-2"><a href="/dashboard1/dashboard.html">Hindi</a></button>
+    </div>
+    
+</div>
+
+<!-- <button class="next-button"><a href="/JAAN-KALYAN/dashboard1/dashboard.html">Next</a></button> -->
+
+
+</body>
+</html>
